@@ -94,7 +94,7 @@ body {
   grid-column: 3;
 }
 
-.sidebar > .button {
+.sidebar>.button {
   float: right;
   margin-right: 1.2rem;
 }
@@ -117,11 +117,13 @@ form {
   border-radius: 7px;
 }
 
+
 .form-add-friend {
   grid-template-columns: 1fr 1.5fr;
   margin-bottom: 1.6rem;
   padding: 1.2rem;
 }
+
 .form-split-bill {
   grid-template-columns: 1fr 12rem;
   padding: 3.2rem 4rem;
